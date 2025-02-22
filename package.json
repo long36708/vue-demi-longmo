@@ -1,6 +1,6 @@
 {
   "name": "vue-demi-longmo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "提供跨版本 Vue Api 支持",
   "engines": {
     "node": ">=12"
