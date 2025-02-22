@@ -1,0 +1,39 @@
+{
+  "name": "vue-demi-longmo",
+  "version": "1.0.0",
+  "description": "提供跨版本 Vue Api 支持",
+  "engines": {
+    "node": ">=12"
+  },
+  "main": "lib/index.cjs",
+  "module": "lib/index.mjs",
+  "types": "lib/index.d.ts",
+  "bin": {
+    "vue-demi-fix": "bin/vue-demi-fix.js",
+    "vue-demi-switch": "bin/vue-demi-switch.js"
+  },
+  "scripts": {
+    "postinstall": "node ./scripts/postinstall.js"
+  },
+  "keywords": [
+    "vue",
+    "vue-demi"
+  ],
+  "files": [
+    "lib",
+    "bin",
+    "scripts"
+  ],
+  "author": "longmo",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "peerDependencies": {
+    "vue": ">=2.7.14"
+  },
+  "dependencies": {
+    "semver": "^7.5.1"
+  }
+}
