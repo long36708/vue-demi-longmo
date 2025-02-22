@@ -214,3 +214,5 @@ declare module 'vue/types/v3-component-public-instance' {
       EmitsToProps<E>;
   }
 }
+
+export declare function hasInjectionContext(): boolean
