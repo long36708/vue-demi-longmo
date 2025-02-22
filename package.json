@@ -1,6 +1,6 @@
 {
   "name": "vue-demi-longmo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "提供跨版本 Vue Api 支持",
   "engines": {
     "node": ">=12"
@@ -13,10 +13,12 @@
     "vue-demi-switch": "bin/vue-demi-switch.js"
   },
   "scripts": {
-    "postinstall": "node ./scripts/postinstall.js"
+    "postinstall": "node ./scripts/postinstall.js",
+    "release": "npx bumpp --tag --commit --push && npm publish"
   },
   "keywords": [
     "vue",
+    "longmo",
     "vue-demi"
   ],
   "files": [
